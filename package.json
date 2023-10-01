@@ -1,0 +1,15 @@
+{
+    "name": "javascript-development-environment",
+    "version": "1.0.0",
+    "description": "Cory House course on Pluralsight",
+    "main": "index.js",
+    "type": "module",
+    "scripts": {},
+    "keywords": [],
+    "author": "Rogerio Romao",
+    "license": "ISC",
+    "devDependencies": {
+        "express": "^4.18.2",
+        "open": "^9.1.0"
+    }
+}
