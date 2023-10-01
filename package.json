@@ -4,12 +4,24 @@
     "description": "Cory House course on Pluralsight",
     "main": "index.js",
     "type": "module",
-    "scripts": {},
+    "scripts": {
+        "prestart": "babel-node build-scripts/start-message.js",
+        "start": "pnpm run prestart && babel-node build-scripts/dev-server.js",
+        "localtunnel": "lt --port 3000 -o",
+        "share": "npm-run-all --parallel start localtunnel"
+    },
     "keywords": [],
     "author": "Rogerio Romao",
     "license": "ISC",
     "devDependencies": {
+        "@babel/cli": "^7.23.0",
+        "@babel/core": "^7.23.0",
+        "@babel/node": "^7.22.19",
+        "@babel/preset-env": "^7.22.20",
+        "chalk": "^5.3.0",
         "express": "^4.18.2",
+        "localtunnel": "^2.0.2",
+        "npm-run-all2": "^6.0.6",
         "open": "^9.1.0"
     }
 }
