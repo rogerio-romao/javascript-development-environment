@@ -8,7 +8,9 @@
         "prestart": "babel-node build-scripts/start-message.js",
         "start": "pnpm run prestart && babel-node build-scripts/dev-server.js",
         "localtunnel": "lt --port 3000 -o",
-        "share": "npm-run-all --parallel start localtunnel"
+        "share": "npm-run-all --parallel start localtunnel",
+        "lint": "esw webpack.config.* src build-scripts --color",
+        "lint:watch": "pnpm run lint -- --watch"
     },
     "keywords": [],
     "author": "Rogerio Romao",
@@ -16,11 +18,15 @@
     "devDependencies": {
         "@babel/cli": "^7.23.0",
         "@babel/core": "^7.23.0",
+        "@babel/eslint-parser": "^7.22.15",
         "@babel/node": "^7.22.19",
         "@babel/preset-env": "^7.22.20",
         "babel-loader": "^9.1.3",
         "chalk": "^5.3.0",
         "css-loader": "^6.8.1",
+        "eslint": "^8.50.0",
+        "eslint-plugin-import": "^2.28.1",
+        "eslint-watch": "^8.0.0",
         "express": "^4.18.2",
         "html-webpack-plugin": "^5.5.3",
         "localtunnel": "^2.0.2",
