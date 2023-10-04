@@ -10,7 +10,9 @@
         "localtunnel": "lt --port 3000 -o",
         "share": "npm-run-all --parallel start localtunnel",
         "lint": "esw webpack.config.* src build-scripts --color",
-        "lint:watch": "pnpm run lint -- --watch"
+        "lint:watch": "pnpm run lint -- --watch",
+        "test": "jest",
+        "test:watch": "jest --watch"
     },
     "keywords": [],
     "author": "Rogerio Romao",
@@ -29,6 +31,8 @@
         "eslint-watch": "^8.0.0",
         "express": "^4.18.2",
         "html-webpack-plugin": "^5.5.3",
+        "jest": "^29.7.0",
+        "jsdom": "^22.1.0",
         "localtunnel": "^2.0.2",
         "mini-css-extract-plugin": "^2.7.6",
         "npm-run-all2": "^6.0.6",
