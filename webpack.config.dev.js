@@ -1,7 +1,7 @@
 import path from "path";
 import { fileURLToPath } from "url";
 
-export default {
+const config = {
     mode: "development",
     devtool: "eval-source-map",
     entry: "./src/index.js",
@@ -12,6 +12,9 @@ export default {
         publicPath: "/",
         filename: "bundle.js",
     },
+    resolve: {
+        extensions: [".js"],
+    },
     plugins: [],
     module: {
         rules: [
@@ -20,3 +23,5 @@ export default {
         ],
     },
 };
+
+export default config;
