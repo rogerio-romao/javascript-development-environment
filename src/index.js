@@ -31,15 +31,18 @@ getUsers().then((result) => {
 
     const deleteLinks = document.getElementsByClassName("deleteUser");
 
-    // Must use array.from to create a real array from a DOM collection.
-    // getElementsByClassName only returns an "array like" object.
+    /*
+     * Must use array.from to create a real array from a DOM collection.
+     * getElementsByClassName only returns an "array like" object.
+     */
     Array.from(deleteLinks, (link) => {
-        link.onclick = function (event) {
+        link.onclick = function link(event) {
             const element = event.target;
             event.preventDefault();
             deleteUser(element.attributes["data-id"].value);
             const row = element.parentNode.parentNode;
             row.parentNode.removeChild(row);
         };
+        return;
     });
 });

@@ -12,12 +12,12 @@ const app = express();
 app.use(compression());
 app.use(express.static("dist"));
 
-app.get("/", (req, res) => {
+app.get("/", (_req, res) => {
     const filename = fileURLToPath(import.meta.url);
     res.sendFile(path.join(path.dirname(filename), "../dist/index.html"));
 });
 
-app.get("/users", (req, res) => {
+app.get("/users", (_req, res) => {
     res.json([
         { id: 1, firstName: "Bob", lastName: "Smith", email: "bob@gmail.com" },
         {
@@ -36,9 +36,6 @@ app.get("/users", (req, res) => {
 });
 
 app.listen(port, (err) => {
-    if (err) {
-        console.error(err);
-    } else {
-        open("http://localhost:" + port);
-    }
+    if (err) console.error(err);
+    else open(`http://localhost:${port}`);
 });

@@ -11,7 +11,6 @@ const config = {
         vendor: "./src/vendor.js",
     },
     output: {
-        // disable eslint for the next line
         // eslint-disable-next-line no-undef
         path: path.resolve(fileURLToPath(import.meta.url), "../dist"),
         publicPath: "/",

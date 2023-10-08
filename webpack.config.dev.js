@@ -7,7 +7,6 @@ const config = {
     devtool: "eval-source-map",
     entry: "./src/index.js",
     output: {
-        // disable eslint for the next line
         // eslint-disable-next-line no-undef
         path: path.resolve(fileURLToPath(import.meta.url), "src"),
         publicPath: "/",
