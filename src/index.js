@@ -1,5 +1,17 @@
+import { Logtail } from "@logtail/browser";
 import { deleteUser, getUsers } from "./api/userApi.js";
 import "./index.css";
+
+const logtail = new Logtail("yCgp2NxaXqvzg1i25ow1izWi");
+
+logtail.error("Something bad happend.");
+logtail.info("Log message with structured data.", {
+    item: "Orange Soda",
+    price: 100.0,
+});
+
+// Ensure that all logs are sent to Logtail
+logtail.flush();
 
 // Populate table of users via API call.
 getUsers().then((result) => {
