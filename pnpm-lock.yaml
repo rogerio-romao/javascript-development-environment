@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   '@logtail/browser':
-    specifier: ^0.4.12
-    version: 0.4.12
+    specifier: ^0.4.17
+    version: 0.4.17
   '@logtail/node':
     specifier: ^0.4.15
     version: 0.4.15
@@ -1708,27 +1708,28 @@ packages:
       '@jridgewell/sourcemap-codec': 1.4.15
     dev: true
 
-  /@logtail/browser@0.4.12:
-    resolution: {integrity: sha512-5ur6pw01twqjNeYQF3viVVCnwzFxN2A4shdoYpF5s79kZVsmnoSvTRoGS4TheqZ6tuqb+e0lmcaPQFkG74dEuw==}
+  /@logtail/browser@0.4.17:
+    resolution: {integrity: sha512-jJ12ipkAKwPPRvAeQZ8T/iM0Q3sQZOnkYmmWWhotwu+Df/sVyOjHoatoKM42wDtC3r6vJF+MCXzgUpIvH3ShpA==}
     dependencies:
-      '@logtail/core': 0.4.12
-      '@logtail/tools': 0.4.12
+      '@logtail/core': 0.4.17
+      '@logtail/tools': 0.4.16
       cross-fetch: 3.1.8
     transitivePeerDependencies:
       - encoding
-    dev: false
-
-  /@logtail/core@0.4.12:
-    resolution: {integrity: sha512-2vtwTxdsyMUq9thSV+H3fGaqEbRGwKwWDDr+SdjMfbzhJpi191ZhBxjix0DM6vPvEb7VmX1AuF9qnRV0d7VMzw==}
-    dependencies:
-      '@logtail/tools': 0.4.12
-      '@logtail/types': 0.4.11
     dev: false
 
   /@logtail/core@0.4.15:
     resolution: {integrity: sha512-2bQABWAYcM+k6RpvDCHJ7Lg9uZzBadIXvHv82BbgIlM6WylgvBVIrJ6Ve0nBhzRdas22kPWuuXBIKsaG2mBeqQ==}
     dependencies:
       '@logtail/tools': 0.4.14
+      '@logtail/types': 0.4.14
+      serialize-error: 8.1.0
+    dev: false
+
+  /@logtail/core@0.4.17:
+    resolution: {integrity: sha512-8mFF62qMDOxHK+LbdLrnmjQvqG6SsYcfnVXiw1DrSQG+1JlydSBmezJo4kxYBVpnM3ZQYEieeKfZ0jVpzm9NzA==}
+    dependencies:
+      '@logtail/tools': 0.4.16
       '@logtail/types': 0.4.14
       serialize-error: 8.1.0
     dev: false
@@ -1747,22 +1748,16 @@ packages:
       - encoding
     dev: false
 
-  /@logtail/tools@0.4.12:
-    resolution: {integrity: sha512-AEvUTdpt+dCfXj0m1XW2mZPCDs1qNJW9kOf66DAln41lAACdgjtTORkc+jtD4Qzs5BAfvOY/lCZRxz4mSKpOyg==}
-    dependencies:
-      '@logtail/types': 0.4.11
-    dev: false
-
   /@logtail/tools@0.4.14:
     resolution: {integrity: sha512-RJXTBf9C68Sct32Llu9tAA6BsyRfsqo/5IEmLBon4Dx/WxrUGECSwjFDmJImhLJbN/3T96dDuczv8U37nsNKRg==}
     dependencies:
       '@logtail/types': 0.4.14
     dev: false
 
-  /@logtail/types@0.4.11:
-    resolution: {integrity: sha512-OKp77uP4bi6eyirVnpwt1qqv0ob8pU5ULkyzODLCuC2zp06K3crVmCspw1JY3L+zX8vuplr1bavJlZv3CX9ejQ==}
+  /@logtail/tools@0.4.16:
+    resolution: {integrity: sha512-jHCktK5mbKih8d7//87km+FUzvttdf5QSQ4enisChPjmslFHljs/cp9T0o16AyZ08H5471QWtH5neykZWOY06g==}
     dependencies:
-      js: 0.1.0
+      '@logtail/types': 0.4.14
     dev: false
 
   /@logtail/types@0.4.14:
