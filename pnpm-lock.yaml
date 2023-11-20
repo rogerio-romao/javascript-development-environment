@@ -9,8 +9,8 @@ dependencies:
     specifier: ^0.4.17
     version: 0.4.17
   '@logtail/node':
-    specifier: ^0.4.15
-    version: 0.4.15
+    specifier: ^0.4.17
+    version: 0.4.17
   dotenv:
     specifier: ^16.3.1
     version: 16.3.1
@@ -1747,14 +1747,6 @@ packages:
       - encoding
     dev: false
 
-  /@logtail/core@0.4.15:
-    resolution: {integrity: sha512-2bQABWAYcM+k6RpvDCHJ7Lg9uZzBadIXvHv82BbgIlM6WylgvBVIrJ6Ve0nBhzRdas22kPWuuXBIKsaG2mBeqQ==}
-    dependencies:
-      '@logtail/tools': 0.4.14
-      '@logtail/types': 0.4.14
-      serialize-error: 8.1.0
-    dev: false
-
   /@logtail/core@0.4.17:
     resolution: {integrity: sha512-8mFF62qMDOxHK+LbdLrnmjQvqG6SsYcfnVXiw1DrSQG+1JlydSBmezJo4kxYBVpnM3ZQYEieeKfZ0jVpzm9NzA==}
     dependencies:
@@ -1763,24 +1755,19 @@ packages:
       serialize-error: 8.1.0
     dev: false
 
-  /@logtail/node@0.4.15:
-    resolution: {integrity: sha512-g+ZgHHZW/qwtNDJquT7qisqGt+4Nmc8ioXe58QeDUe9ZNS8M2GxdQodNscxaw2ZTxrpclzqfFGlu0CRb0FwKGQ==}
+  /@logtail/node@0.4.17:
+    resolution: {integrity: sha512-O7rtyM4Yx3luRJR7F8gvuYTKwXC81cffFEUGXaI8hvOQHYEjdDnSNQQ/59/1YmOXIgoJ8EKgXTaAgawLNLyvUg==}
     dependencies:
-      '@logtail/core': 0.4.15
+      '@logtail/core': 0.4.17
       '@logtail/types': 0.4.14
       '@msgpack/msgpack': 2.8.0
       '@types/stack-trace': 0.0.29
       cross-fetch: 3.1.8
       minimatch: 3.1.2
+      serialize-error: 8.1.0
       stack-trace: 0.0.10
     transitivePeerDependencies:
       - encoding
-    dev: false
-
-  /@logtail/tools@0.4.14:
-    resolution: {integrity: sha512-RJXTBf9C68Sct32Llu9tAA6BsyRfsqo/5IEmLBon4Dx/WxrUGECSwjFDmJImhLJbN/3T96dDuczv8U37nsNKRg==}
-    dependencies:
-      '@logtail/types': 0.4.14
     dev: false
 
   /@logtail/tools@0.4.16:

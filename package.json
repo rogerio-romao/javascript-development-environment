@@ -56,7 +56,7 @@
     },
     "dependencies": {
         "@logtail/browser": "^0.4.17",
-        "@logtail/node": "^0.4.15",
+        "@logtail/node": "^0.4.17",
         "dotenv": "^16.3.1",
         "numeral": "^2.0.6"
     }
