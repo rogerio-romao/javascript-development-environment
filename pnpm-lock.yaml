@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   '@logtail/browser':
-    specifier: ^0.4.17
-    version: 0.4.17
+    specifier: ^0.4.18
+    version: 0.4.18
   '@logtail/node':
     specifier: ^0.4.17
     version: 0.4.17
@@ -1737,8 +1737,8 @@ packages:
       '@jridgewell/sourcemap-codec': 1.4.15
     dev: true
 
-  /@logtail/browser@0.4.17:
-    resolution: {integrity: sha512-jJ12ipkAKwPPRvAeQZ8T/iM0Q3sQZOnkYmmWWhotwu+Df/sVyOjHoatoKM42wDtC3r6vJF+MCXzgUpIvH3ShpA==}
+  /@logtail/browser@0.4.18:
+    resolution: {integrity: sha512-iiUOpem1kuGJb2XkSLSWdbJ0EOXJOzcfh+wzqnMOmb44R5nKfVeZYYGdAT58ddm/EHFQRieMjG/D39nZ8o4N+g==}
     dependencies:
       '@logtail/core': 0.4.17
       '@logtail/tools': 0.4.16
