@@ -11,6 +11,9 @@ const port = 3000;
 
 const app = express();
 
+// security best practice
+app.disable("x-powered-by");
+
 const compiler = webpack(config);
 
 app.use(
