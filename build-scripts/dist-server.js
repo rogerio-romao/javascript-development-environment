@@ -9,6 +9,9 @@ const port = 3000;
 
 const app = express();
 
+// security best practice
+app.disable("x-powered-by");
+
 app.use(compression());
 app.use(express.static("dist"));
 

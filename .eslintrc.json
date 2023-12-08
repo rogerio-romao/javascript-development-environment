@@ -135,14 +135,7 @@
         ],
         "block-scoped-var": "error",
         "camelcase": "error",
-        "capitalized-comments": [
-            "warn",
-            "always",
-            {
-                "ignoreConsecutiveComments": true,
-                "ignoreInlineComments": true
-            }
-        ],
+        "capitalized-comments": "off",
         "class-methods-use-this": "warn",
         "complexity": [
             "warn",
@@ -247,15 +240,7 @@
         "no-lone-blocks": "error",
         "no-lonely-if": "error",
         "no-loop-func": "error",
-        "no-magic-numbers": [
-            "warn",
-            {
-                "ignore": [-1, 0, 1],
-                "ignoreDefaultValues": true,
-                "ignoreArrayIndexes": true,
-                "detectObjects": false
-            }
-        ],
+        "no-magic-numbers": "off",
         "no-mixed-operators": [
             "error",
             {
