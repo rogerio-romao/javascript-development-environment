@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   '@logtail/browser':
-    specifier: ^0.4.18
-    version: 0.4.18
+    specifier: ^0.4.19
+    version: 0.4.19
   '@logtail/node':
     specifier: ^0.4.19
     version: 0.4.19
@@ -1749,22 +1749,14 @@ packages:
       '@jridgewell/sourcemap-codec': 1.4.15
     dev: true
 
-  /@logtail/browser@0.4.18:
-    resolution: {integrity: sha512-iiUOpem1kuGJb2XkSLSWdbJ0EOXJOzcfh+wzqnMOmb44R5nKfVeZYYGdAT58ddm/EHFQRieMjG/D39nZ8o4N+g==}
+  /@logtail/browser@0.4.19:
+    resolution: {integrity: sha512-85exfHL4KbsfmzbYlVKwq7au4BuOceFNQJuPTNkt51dai5rBvhxf7k1VbYM8jCS8cHIj3VdyNLl+2VpsqokBRQ==}
     dependencies:
-      '@logtail/core': 0.4.17
-      '@logtail/tools': 0.4.16
+      '@logtail/core': 0.4.19
+      '@logtail/tools': 0.4.19
       cross-fetch: 3.1.8
     transitivePeerDependencies:
       - encoding
-    dev: false
-
-  /@logtail/core@0.4.17:
-    resolution: {integrity: sha512-8mFF62qMDOxHK+LbdLrnmjQvqG6SsYcfnVXiw1DrSQG+1JlydSBmezJo4kxYBVpnM3ZQYEieeKfZ0jVpzm9NzA==}
-    dependencies:
-      '@logtail/tools': 0.4.16
-      '@logtail/types': 0.4.14
-      serialize-error: 8.1.0
     dev: false
 
   /@logtail/core@0.4.19:
@@ -1790,22 +1782,10 @@ packages:
       - encoding
     dev: false
 
-  /@logtail/tools@0.4.16:
-    resolution: {integrity: sha512-jHCktK5mbKih8d7//87km+FUzvttdf5QSQ4enisChPjmslFHljs/cp9T0o16AyZ08H5471QWtH5neykZWOY06g==}
-    dependencies:
-      '@logtail/types': 0.4.14
-    dev: false
-
   /@logtail/tools@0.4.19:
     resolution: {integrity: sha512-6wtf5iJgKMpF2sn8mHOEA2GzluXlBjt6aK0YXzv6IuRhKL4dzk52jjkFWXwgVfA4xf53nhHRGA/SrGOPm6K9bQ==}
     dependencies:
       '@logtail/types': 0.4.19
-    dev: false
-
-  /@logtail/types@0.4.14:
-    resolution: {integrity: sha512-oRAER5vmUyW1rK56EoL+GotVbbCDgttVvg0F9i08WOD6/PjiGcsPH7wNHNYGdvB/KdAXxAhD4+81ZShNKFkZdg==}
-    dependencies:
-      js: 0.1.0
     dev: false
 
   /@logtail/types@0.4.19:
