@@ -89,8 +89,8 @@ devDependencies:
     specifier: ^6.1.1
     version: 6.1.1
   open:
-    specifier: ^10.0.2
-    version: 10.0.2
+    specifier: ^10.0.3
+    version: 10.0.3
   rimraf:
     specifier: ^5.0.5
     version: 5.0.5
@@ -5527,8 +5527,8 @@ packages:
       format-util: 1.0.5
     dev: true
 
-  /open@10.0.2:
-    resolution: {integrity: sha512-GnYLdE+E3K8NeSE23N0g67/9q9AXRph5oTUbz6IbIgElPigEnQ2aHuqRge3y0JUr67qoc84xME5kF03fDc3fcA==}
+  /open@10.0.3:
+    resolution: {integrity: sha512-dtbI5oW7987hwC9qjJTyABldTaa19SuyJse1QboWv3b0qCcrrLNVDqBx1XgELAjh9QTVQaP/C5b1nhQebd1H2A==}
     engines: {node: '>=18'}
     dependencies:
       default-browser: 5.2.1
