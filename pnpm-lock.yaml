@@ -74,8 +74,8 @@ devDependencies:
     specifier: ^24.0.0
     version: 24.0.0
   json-schema-faker:
-    specifier: ^0.5.4
-    version: 0.5.4
+    specifier: ^0.5.5
+    version: 0.5.5
   json-server:
     specifier: ^0.17.4
     version: 0.17.4
@@ -4911,8 +4911,8 @@ packages:
       jju: 1.4.0
     dev: true
 
-  /json-schema-faker@0.5.4:
-    resolution: {integrity: sha512-DdRRnRNSxkQVXEsUUXzAtvBpsROZHvM59/LQcV6+3gQVMvaeMsqfNKN3ivRwaiahTW7pvxa+LJfOaPP+nhFo4g==}
+  /json-schema-faker@0.5.5:
+    resolution: {integrity: sha512-MlnBqcsM1t8jdHs00ltae0rlSwWI2nrd1IfnAF+UcHsqKFrlAhrbDFVKiA8C0E860PuspKoV4oImJdvtF7aqwg==}
     hasBin: true
     dependencies:
       json-schema-ref-parser: 6.1.0
