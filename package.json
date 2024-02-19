@@ -51,7 +51,7 @@
         "open": "^10.0.3",
         "rimraf": "^5.0.5",
         "style-loader": "^3.3.4",
-        "webpack": "^5.90.1",
+        "webpack": "^5.90.2",
         "webpack-dev-middleware": "^7.0.0"
     },
     "dependencies": {
