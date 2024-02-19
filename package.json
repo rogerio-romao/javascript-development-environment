@@ -57,7 +57,7 @@
     "dependencies": {
         "@logtail/browser": "^0.4.19",
         "@logtail/node": "^0.4.19",
-        "dotenv": "^16.4.2",
+        "dotenv": "^16.4.4",
         "express-rate-limit": "^7.1.5",
         "numeral": "^2.0.6"
     }
