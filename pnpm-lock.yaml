@@ -12,8 +12,8 @@ dependencies:
     specifier: ^0.4.19
     version: 0.4.19
   dotenv:
-    specifier: ^16.4.2
-    version: 16.4.2
+    specifier: ^16.4.4
+    version: 16.4.4
   express-rate-limit:
     specifier: ^7.1.5
     version: 7.1.5(express@4.18.2)
@@ -3068,8 +3068,8 @@ packages:
       tslib: 2.6.2
     dev: true
 
-  /dotenv@16.4.2:
-    resolution: {integrity: sha512-rZSSFxke7d9nYQ5NeMIwp5PP+f8wXgKNljpOb7KtH6SKW1cEqcXAz9VSJYVLKe7Jhup/gUYOkaeSVyK8GJ+nBg==}
+  /dotenv@16.4.4:
+    resolution: {integrity: sha512-XvPXc8XAQThSjAbY6cQ/9PcBXmFoWuw1sQ3b8HqUCR6ziGXjkTi//kB9SWa2UwqlgdAIuRqAa/9hVljzPehbYg==}
     engines: {node: '>=12'}
     dev: false
 
