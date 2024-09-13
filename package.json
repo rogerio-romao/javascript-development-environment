@@ -55,8 +55,8 @@
         "webpack-dev-middleware": "^7.0.0"
     },
     "dependencies": {
-        "@logtail/browser": "^0.4.19",
-        "@logtail/node": "^0.4.19",
+        "@logtail/browser": "^0.5.1",
+        "@logtail/node": "^0.5.0",
         "dotenv": "^16.4.4",
         "express-rate-limit": "^7.1.5",
         "numeral": "^2.0.6"
